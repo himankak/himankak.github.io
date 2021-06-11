@@ -2481,14 +2481,22 @@ input, select, textarea {
 		}
 
 		ul.feature-icons-edu h5{
-			color: #888;
+			color: rgb(0, 0, 0);
 			font-size: 1em;
+			padding: 0 0 0 0;
+			margin: 0 0 0 0;
+		}
+
+		ul.feature-icons-edu i{
+			color: #888;
 		}
 
 		ul.feature-icons-edu h6{
-			color: #005a7e;
-			font-size: 0.9em;
-			font-weight: 400;
+			color: #008ab4;
+			font-size: 0.85em;
+			/* font-weight: 400; */
+			padding: 0 0 0 0;
+			margin: 0 0 0 0;
 		}
 
 
@@ -2653,6 +2661,30 @@ input, select, textarea {
 			table.alt tfoot {
 				border-top: 0;
 			}
+
+			table i{
+				color: #888;
+			}
+
+			table h5{
+				color: #000000;
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+				font-size: 1em;
+			}
+
+			table h6{
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+				color: #008ab4;
+				font-size: 0.85em;
+			}
+
+			/* @media screen and (max-width: 736px) { */
+			/* table h4{ */
+				/* display: inline-block;  Show BR tag for narrow screens */
+			  /* } */
+			/* } */
 
 /* Button */
 
