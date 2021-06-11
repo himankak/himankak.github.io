@@ -2541,6 +2541,11 @@ input, select, textarea {
 				ul.feature-icons-edu li{
 					width: 100%;
 				}
+				ul.feature-icons li {
+					display: flex;
+					flex-direction: column;
+					width: 100%;
+				}
 			}
 
 /* Icons */
@@ -3509,7 +3514,7 @@ input, select, textarea {
 					}
 
 			ul.feature-icons li {
-				display: block;
+				/* display: block; */
 				width: 100%;
 			}
 
