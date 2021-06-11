@@ -208,13 +208,13 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1em;
 		line-height: 1.5em;
 		font-weight: 100;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.8em;
 		line-height: 1.5em;
 		font-weight: 100;
 	}
@@ -2482,10 +2482,13 @@ input, select, textarea {
 
 		ul.feature-icons-edu h5{
 			color: #888;
+			font-size: 1em;
 		}
 
 		ul.feature-icons-edu h6{
 			color: #005a7e;
+			font-size: 0.9em;
+			font-weight: 400;
 		}
 
 
