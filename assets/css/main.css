@@ -108,14 +108,14 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: rgb(0, 0, 0);
 		/* font-family: "Lato", sans-serif; */
 		/* font-family: 'Barlow Condensed', sans-serif; */
 		/* font-family: 'Play', sans-serif; */
 		/* font-family: 'Monda', sans-serif; */
 		font-family: 'Titillium Web', sans-serif;
 		font-size: 16pt;
-		font-weight: 200;
+		font-weight: 100;
 		line-height: 1.75em;
 	}
 
@@ -2269,12 +2269,18 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 22em;
+			height: 21.5em;
 			border-radius: 0;
 		}
 
 			.image.main img {
 				border-radius: 0;
+				/* max-height: 90%; */
+			}
+			@media screen and (max-width: 1680px) {
+				.image.main img {
+					max-height: fit-content;
+				}
 			}
 
 /* List */
@@ -2473,6 +2479,15 @@ input, select, textarea {
 			vertical-align: top;
 			width: 70%;
 		}
+
+		ul.feature-icons-edu h5{
+			color: #888;
+		}
+
+		ul.feature-icons-edu h6{
+			color: #005a7e;
+		}
+
 
 			ul.feature-icons li:before {
 				-moz-osx-font-smoothing: grayscale;
@@ -3572,6 +3587,7 @@ input, select, textarea {
 		font-size: 30px;
 		font-weight: bold;
 		text-decoration: none;
+		border-bottom: none;
 		color: rgb(12, 162, 207);
 	  }
 	  .popup .close:hover {
@@ -3662,4 +3678,20 @@ input, select, textarea {
 		max-width: 100%;
 	  }
   }
+
+
+  /* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_3.gif) center no-repeat #fff;
+}
   

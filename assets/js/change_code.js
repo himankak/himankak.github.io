@@ -62,6 +62,16 @@ function Kotlin_func(){
 
 }
 
+var completes = document.querySelectorAll(".complete");
+var toggleButton = document.getElementById("toggleButton");
+
+function toggleComplete() {
+  var lastComplete = completes[completes.length - 1];
+  lastComplete.classList.toggle("complete");
+}
+
+toggleButton.onclick = toggleComplete;
+
 // function C_func() {
 // 	var c_code = document.getElementById("simple_code");
 // 	var c_code = text('while (!energyDepleted()) {"<br>&emsp;&emsp;printf("%d", research(&effort));<br>&emsp;&emsp;printf("%d", learn(&effort));<br>&emsp;&emsp;printf("%d", implement(&effort));<br>}').innerHTML
