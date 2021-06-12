@@ -2363,8 +2363,15 @@ input, select, textarea {
 			margin-left: 0;
 		}
 
+		ul.actions.stacked:not(.fixed) li > * {
+			width: 100%;
+		}
+
 			ul.actions.stacked li {
 				padding: 1.125em 0 0 0;
+				width: 100%;
+				font-size: 0.8em;
+				line-height: 0;
 			}
 
 				ul.actions.stacked li:first-child {
