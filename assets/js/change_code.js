@@ -62,15 +62,15 @@ function Kotlin_func(){
 
 }
 
-var completes = document.querySelectorAll(".complete");
-var toggleButton = document.getElementById("toggleButton");
+// var completes = document.querySelectorAll(".complete");
+// var toggleButton = document.getElementById("toggleButton");
 
-function toggleComplete() {
-  var lastComplete = completes[completes.length - 1];
-  lastComplete.classList.toggle("complete");
-}
+// function toggleComplete() {
+//   var lastComplete = completes[completes.length - 1];
+//   lastComplete.classList.toggle("complete");
+// }
 
-toggleButton.onclick = toggleComplete;
+// toggleButton.onclick = toggleComplete;
 
 // function C_func() {
 // 	var c_code = document.getElementById("simple_code");
