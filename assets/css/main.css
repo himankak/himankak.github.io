@@ -150,11 +150,18 @@ input, select, textarea {
 		/* font-family: 'Titillium Web', sans-serif; */
 	}
 
-	h1, h4, h5, h6 {
+	h4, h5, h6 {
 		color: rgb(0, 0, 0);
 		font-weight: 500;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
+	}
+
+	h1 {
+		color: rgb(0, 0, 0);
+		font-weight: 500;
+		line-height: 1em;
+		/* margin: 0 0 0.5625em 0; */
 	}
 
 	h2 {
@@ -1822,6 +1829,12 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 	}
 
+	header h1 + p {
+		font-size: 1.25em;
+		margin-top: -0.5em;
+		line-height: 1.5em;
+	}
+
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -0.5em;
@@ -1848,6 +1861,19 @@ input, select, textarea {
 		font-family: 'Bebas Neue', cursive;
 	}
 
+	header.major h1{
+		color: #008ab4;
+		font-size: 3.5em;
+		font-family: 'Bebas Neue', cursive;
+	}
+
+	header.major h1 + p {
+		color: #777;
+		font-size: 1.5em;
+		font-weight: 500;
+		margin-top: -0.75em;
+		font-family: 'Bebas Neue', cursive;
+	}
 		header.major h2 + p {
 			color: #777;
 			font-size: 1.5em;
@@ -3354,6 +3380,10 @@ input, select, textarea {
 				display: none;
 			}
 
+			h1 {
+				font-size: 2.2em;
+			}
+
 			h2 {
 				font-size: 2.2em;
 			}
@@ -3396,8 +3426,16 @@ input, select, textarea {
 				display: none;
 			}
 
+			header.major h1{
+				font-size: 3.5em;
+			}
+
 			header.major h2 {
 				font-size: 3.5em;
+			}
+
+			header.major h1 + p {
+				font-size: 1.5em;
 			}
 
 				header.major h2 + p {
