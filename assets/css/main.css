@@ -2396,7 +2396,7 @@ input, select, textarea {
 			ul.actions.stacked li {
 				padding: 1.125em 0 0 0;
 				width: 100%;
-				font-size: 0.8em;
+				font-size: 0.9em;
 				line-height: 0;
 			}
 
@@ -2525,7 +2525,7 @@ input, select, textarea {
 		}
 
 		ul.feature-icons-edu h6{
-			color: #008ab4;
+			color: #007bc2;
 			font-size: 0.85em;
 			/* font-weight: 400; */
 			padding: 0 0 0 0;
@@ -2709,7 +2709,7 @@ input, select, textarea {
 			table h6{
 				padding: 0 0 0 0;
 				margin: 0 0 0 0;
-				color: #008ab4;
+				color: #007bc2;
 				font-size: 0.85em;
 			}
 
