@@ -2515,7 +2515,7 @@ input, select, textarea {
 
 		ul.feature-icons-edu h5{
 			color: rgb(0, 0, 0);
-			font-size: 1em;
+			font-size: 0.95em;
 			padding: 0 0 0 0;
 			margin: 0 0 0 0;
 			line-height: 1.6em;
@@ -2705,7 +2705,7 @@ input, select, textarea {
 				color: #000000;
 				padding: 0 0 0 0;
 				margin: 0 0 0 0;
-				font-size: 1em;
+				font-size: 0.95em;
 				line-height: 1.6em;
 			}
 
