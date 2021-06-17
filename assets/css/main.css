@@ -113,7 +113,7 @@ input, select, textarea {
 		/* font-family: 'Barlow Condensed', sans-serif; */
 		/* font-family: 'Play', sans-serif; */
 		/* font-family: 'Monda', sans-serif; */
-		font-family: 'Noto Sans HK', sans-serif;
+		font-family: 'Encode Sans Semi Condensed', sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -2012,7 +2012,7 @@ input, select, textarea {
 				/* font-family: 'Barlow Condensed', sans-serif; */
 				/* font-family: 'Play', sans-serif; */
 				/* font-family: 'Monda', sans-serif; */
-				font-family: 'Noto Sans HK', sans-serif;
+				font-family: 'Encode Sans Semi Condensed', sans-serif;
 				font-weight: 900;
 			}
 
@@ -2295,7 +2295,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 21.5em;
+			height: 22em;
 			border-radius: 0;
 		}
 
@@ -2518,6 +2518,7 @@ input, select, textarea {
 			font-size: 1em;
 			padding: 0 0 0 0;
 			margin: 0 0 0 0;
+			line-height: 1.6em;
 		}
 
 		ul.feature-icons-edu i{
@@ -2530,6 +2531,7 @@ input, select, textarea {
 			/* font-weight: 400; */
 			padding: 0 0 0 0;
 			margin: 0 0 0 0;
+			line-height: 1.6em;
 		}
 
 
@@ -2704,6 +2706,7 @@ input, select, textarea {
 				padding: 0 0 0 0;
 				margin: 0 0 0 0;
 				font-size: 1em;
+				line-height: 1.6em;
 			}
 
 			table h6{
@@ -2711,6 +2714,7 @@ input, select, textarea {
 				margin: 0 0 0 0;
 				color: #005586;
 				font-size: 0.85em;
+				line-height: 1.6em;
 			}
 
 			/* @media screen and (max-width: 736px) { */
