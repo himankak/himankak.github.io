@@ -115,7 +115,7 @@ input, select, textarea {
 		/* font-family: 'Monda', sans-serif; */
 		font-family: 'Noto Sans HK', sans-serif;
 		font-size: 15pt;
-		font-weight: 100;
+		font-weight: 300;
 		line-height: 1.75em;
 	}
 
@@ -152,7 +152,7 @@ input, select, textarea {
 
 	h4, h5, h6 {
 		color: rgb(0, 0, 0);
-		font-weight: 500;
+		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
 	}
@@ -211,19 +211,19 @@ input, select, textarea {
 	h4 {
 		font-size: 1.25em;
 		line-height: 1.5em;
-		font-weight: 100;
+		font-weight: 300;
 	}
 
 	h5 {
 		font-size: 1em;
 		line-height: 1.5em;
-		font-weight: 100;
+		font-weight: 300;
 	}
 
 	h6 {
 		font-size: 0.8em;
 		line-height: 1.5em;
-		font-weight: 100;
+		font-weight: 300;
 	}
 
 	sub {
