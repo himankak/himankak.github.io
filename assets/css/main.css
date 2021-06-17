@@ -3005,7 +3005,13 @@ input, select, textarea {
 					color: #b7d6ea;
 					border-bottom: hidden;
 				}
-
+				#header > footer .icons img.pdfclass{
+					content: '';
+					display: inline-block;
+					height: 20px;
+					width: 20px;
+					/* background-image: url(); */
+				 }
 		#header header > nav {
 			/* -moz-flex-grow: 1; */
 			/* -webkit-flex-grow: 1; */
