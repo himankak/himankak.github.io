@@ -2138,6 +2138,12 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		.premium-particles-yes .tsparticles-canvas-el {
+			position: absolute!important;
+			top: 0;
+			height: 100%;
+		}
+
 /* Image */
 
 	.image {
