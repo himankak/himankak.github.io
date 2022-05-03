@@ -367,7 +367,7 @@
 
 	ParticleNetwork.prototype.bindUiActions = function() {
 		// Mouse / touch event handling
-		this.spawnQuantity = 3;
+		this.spawnQuantity = 5;
 		this.mouseIsDown = false;
 		this.touchIsMoving = false;
 
