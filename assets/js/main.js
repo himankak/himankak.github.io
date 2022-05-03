@@ -202,7 +202,7 @@
 		this.canvas = parent.canvas;
 		this.ctx = parent.ctx;
 		this.particleColor = returnRandomArrayitem(this.network.options.particleColors);
-		this.radius = getLimitedRandom(2.5, 2.5);
+		this.radius = getLimitedRandom(2.5, 1.5);
 		this.opacity = 0;
 		this.x = x || Math.random() * this.canvas.width;
 		this.y = y || Math.random() * this.canvas.height;
