@@ -202,13 +202,13 @@
 		this.canvas = parent.canvas;
 		this.ctx = parent.ctx;
 		this.particleColor = returnRandomArrayitem(this.network.options.particleColors);
-		this.radius = getLimitedRandom(1.5, 2.5);
+		this.radius = getLimitedRandom(2.5, 2.5);
 		this.opacity = 0;
 		this.x = x || Math.random() * this.canvas.width;
 		this.y = y || Math.random() * this.canvas.height;
 		this.velocity = {
-			x: (Math.random() - 1.5) * parent.options.velocity,
-			y: (Math.random() - 1.5) * parent.options.velocity
+			x: (Math.random() - 0.5) * parent.options.velocity,
+			y: (Math.random() - 0.5) * parent.options.velocity
 		};
 	};
 
@@ -242,11 +242,11 @@
 
 	var ParticleNetwork = function(parent) {
 		this.options = {
-			velocity: 1, // the higher the faster
-			density: 15000, // the lower the denser
-			netLineDistance: 200,
+			velocity: 2, // the higher the faster
+			density: 9000, // the lower the denser
+			netLineDistance: 150,
 			netLineColor: '#929292',
-			particleColors: ['#aaa'] // ['#6D4E5C', '#aaa', '#FFC458' ]
+			particleColors: ['#FFC458'] // ['#6D4E5C', '#aaa', '#FFC458' ]
 		};
 		this.canvas = parent.canvas;
 		this.ctx = parent.ctx;
