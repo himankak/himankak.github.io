@@ -4,9 +4,9 @@
   border-radius: 0;
   background-color: #171717;
 }
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 736px) {
   .particle-network-animation {
-    max-height: fit-content;
+    max-height: 100%;
   }
 }
 .particle-network-animation::before {

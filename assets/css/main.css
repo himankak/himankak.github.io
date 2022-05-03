@@ -2138,11 +2138,11 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		.premium-particles-yes .tsparticles-canvas-el {
+		/* .premium-particles-yes .tsparticles-canvas-el {
 			position: absolute!important;
 			top: 0;
 			height: 100%;
-		}
+		} */
 
 /* Image */
 
@@ -3433,7 +3433,7 @@ input, select, textarea {
 			}
 
 			.image.main {
-				height: 12em;
+				height: 18em;
 			}
 
 		/* Section/Article */
