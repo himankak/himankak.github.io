@@ -244,7 +244,7 @@
 		this.options = {
 			velocity: 2, // the higher the faster
 			density: 9000, // the lower the denser
-			netLineDistance: 150,
+			netLineDistance: 200,
 			netLineColor: '#929292',
 			particleColors: ['#FFC458'] // ['#6D4E5C', '#aaa', '#FFC458' ]
 		};
