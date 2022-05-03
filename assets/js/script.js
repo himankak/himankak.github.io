@@ -47,8 +47,8 @@
 		this.x = x || Math.random() * this.canvas.width;
 		this.y = y || Math.random() * this.canvas.height;
 		this.velocity = {
-			x: (Math.random() - 0.5) * parent.options.velocity,
-			y: (Math.random() - 0.5) * parent.options.velocity
+			x: (Math.random() - 1.5) * parent.options.velocity,
+			y: (Math.random() - 1.5) * parent.options.velocity
 		};
 	};
 
@@ -207,7 +207,7 @@
 
 	ParticleNetwork.prototype.bindUiActions = function() {
 		// Mouse / touch event handling
-		this.spawnQuantity = 3;
+		this.spawnQuantity = 4;
 		this.mouseIsDown = false;
 		this.touchIsMoving = false;
 
