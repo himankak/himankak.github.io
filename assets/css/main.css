@@ -3166,7 +3166,7 @@ input, select, textarea {
 
 /* Main */
 
-	#main > section > .container {
+	#main > section > .container > .carousel-cell {
 		padding: 8em 0 5em 0;
 	}
 }
@@ -3205,7 +3205,7 @@ input, select, textarea {
 
 	/* Main */
 
-		#main > section > .container {
+		#main > section > .container > .carousel-cell {
 			padding: 6em 0 3em 0;
 		}
 
@@ -3245,7 +3245,7 @@ input, select, textarea {
 
 		/* Main */
 
-			#main > section > .container {
+			#main > section > .container > .carousel-cell {
 				padding: 4em 0 2em 0;
 			}
 
@@ -3606,7 +3606,7 @@ input, select, textarea {
 
 		/* Main */
 
-			#main > section > .container {
+			#main > section > .container > .carousel-cell {
 				padding: 2em 0 0 0;
 			}
 
@@ -3835,8 +3835,11 @@ input, select, textarea {
   }
   
   .carousel-cell {
-	width: 70%;
-	height: match-parent;
+	/* width: 70%; */
+	margin: 0 auto;
+	max-width: calc(100% - 5em);
+	width: 40em;
+	/* height: match-parent; */
 	margin-right: 30px;
 	/* center images in cells with flexbox */
 	display: flex;
@@ -3863,9 +3866,9 @@ input, select, textarea {
 
   @media screen and (max-width: 3840px){
 
-	.carousel-cell{
+	/* .carousel-cell{
 		max-height: fit-content;
-	}
+	} */
 
 	.carousel-cell-image {
 		display: block;
@@ -3875,9 +3878,9 @@ input, select, textarea {
 
   @media screen and (max-width: 2560px){
 
-	.carousel-cell{
+	/* .carousel-cell{
 		max-height: fit-content;
-	}
+	} */
 
 	.carousel-cell-image {
 		display: block;
@@ -3887,9 +3890,9 @@ input, select, textarea {
 
   @media screen and (max-width: 1920px){
 
-	.carousel-cell{
+	/* .carousel-cell{
 		max-height: fit-content;
-	}
+	} */
 
 	.carousel-cell-image {
 		display: block;
