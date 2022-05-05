@@ -15,7 +15,10 @@
 
 	// Breakpoints.
 		breakpoints({
-			xlarge:   [ '1281px',  '1680px' ],
+			FOURHD:	  [ '2561px',  '3840px' ],
+			TWOHD:	  [ '1921px',  '2560px' ],
+			HD:		  [ '1441px',  '1920px' ],
+			xlarge:   [ '1281px',  '1440px' ],
 			large:    [ '1025px',  '1280px' ],
 			medium:   [ '737px',   '1024px' ],
 			small:    [ '481px',   '736px'  ],
@@ -117,6 +120,10 @@
 										$this.removeClass('active-locked');
 
 							}
+							// leave: function() {
+							// 	// Deactivate section.
+							// 	$section.removeClass('active');
+							// }
 						});
 
 				});
@@ -148,7 +155,7 @@
 			speed: 1000,
 			offset: function() {
 
-				if (breakpoints.active('<=medium'))
+				if (breakpoints.active('<=large'))
 					return $titleBar.height();
 
 				return 0;
@@ -158,9 +165,8 @@
 
 })(jQuery);
 
-/**
- * Particle Network Animation
- * Inspiration: https://github.com/JulianLaval/canvas-particle-network
+/*
+ * NEURAL NETWORK ANIMATION
 */
 
 (function() {
@@ -342,7 +348,7 @@
 					this.ctx.beginPath();
 					this.ctx.strokeStyle = this.options.netLineColor;
 					this.ctx.globalAlpha = (this.options.netLineDistance - distance) / this.options.netLineDistance * p1.opacity * p2.opacity;
-					this.ctx.lineWidth = 0.7;
+					this.ctx.lineWidth = 1;
 					this.ctx.moveTo(p1.x, p1.y);
 					this.ctx.lineTo(p2.x, p2.y);
 					this.ctx.stroke();

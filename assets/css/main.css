@@ -539,7 +539,7 @@ input, select, textarea {
 					padding-top: 4em;
 				}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1920px) {
 
 			.row {
 				display: flex;
@@ -2309,7 +2309,17 @@ input, select, textarea {
 				border-radius: 0;
 				/* max-height: 90%; */
 			}
-			@media screen and (max-width: 1680px) {
+			@media screen and (max-width: 3840px) {
+				.image.main img {
+					max-height: fit-content;
+				}
+			}
+			@media screen and (max-width: 2560px) {
+				.image.main img {
+					max-height: fit-content;
+				}
+			}
+			@media screen and (max-width: 1920px) {
 				.image.main img {
 					max-height: fit-content;
 				}
@@ -3121,9 +3131,89 @@ input, select, textarea {
 					color: inherit;
 				}
 
+
+/* 4K */
+
+@media screen and (max-width: 3840px) {
+
+	/* Basic */
+
+	body, input, select, textarea {
+		font-size: 28pt;
+	}
+
+/* Header */
+
+	#header {
+		width: 28em;
+		/* padding-top: 12em; */
+		/* padding-bottom: 5em; */
+	}
+
+		#header > header {
+			padding: 3.5em;
+		}
+
+		#header > footer {
+			padding: 3em;
+		}
+
+/* Wrapper */
+
+	#wrapper {
+		padding-right: 28em;
+	}
+
+/* Main */
+
+	#main > section > .container {
+		padding: 8em 0 5em 0;
+	}
+}
+
+/* 2K */
+
+@media screen and (max-width: 2560px) {
+
+	/* Basic */
+
+		body, input, select, textarea {
+			font-size: 18pt;
+		}
+
+	/* Header */
+
+		#header {
+			width: 24em;
+			/* padding-top: 12em; */
+			/* padding-bottom: 5em; */
+		}
+
+			#header > header {
+				padding: 2.5em;
+			}
+
+			#header > footer {
+				padding: 2em;
+			}
+
+	/* Wrapper */
+
+		#wrapper {
+			padding-right: 24em;
+		}
+
+	/* Main */
+
+		#main > section > .container {
+			padding: 6em 0 3em 0;
+		}
+
+}
+
 /* XLarge */
 
-	@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 1920px) {
 
 		/* Basic */
 
@@ -3163,12 +3253,12 @@ input, select, textarea {
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1440px) {
 
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		/* Header */
@@ -3176,6 +3266,10 @@ input, select, textarea {
 			#header {
 				width: 20em;
 				/* padding-top: 5em; */
+			}
+
+			#header > footer {
+				padding: 1.5em;
 			}
 
 		/* Wrapper */
@@ -3742,7 +3836,7 @@ input, select, textarea {
   
   .carousel-cell {
 	width: 70%;
-	height: 450px;
+	height: fit-content;
 	margin-right: 30px;
 	/* center images in cells with flexbox */
 	display: flex;
@@ -3767,7 +3861,31 @@ input, select, textarea {
 	/* max-height: 80%; */
   }
 
-  @media screen and (max-width: 1680px){
+  @media screen and (max-width: 3840px){
+
+	.carousel-cell{
+		max-height: min-content;
+	}
+
+	.carousel-cell-image {
+		display: block;
+		max-width: 100%;
+	  }
+  }
+
+  @media screen and (max-width: 2560px){
+
+	.carousel-cell{
+		max-height: min-content;
+	}
+
+	.carousel-cell-image {
+		display: block;
+		max-width: 100%;
+	  }
+  }
+
+  @media screen and (max-width: 1920px){
 
 	.carousel-cell-image {
 		display: block;
@@ -3819,6 +3937,12 @@ if it's not present, don't show loader */
 	background-position: center center;
 	background-size: cover;
 	opacity: 0.2;
+  }
+  @media screen and (max-width: 736px) {
+	.particle-network-animation::before {
+	  max-height: 100%;
+	  max-width: 100%;
+	}
   }
   
   .glow {
