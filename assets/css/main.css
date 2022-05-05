@@ -3836,8 +3836,8 @@ input, select, textarea {
   
   .carousel-cell {
 	/* width: 70%; */
-	margin: 0 auto;
-	max-width: calc(100% - 5em);
+	/* margin: 0 auto;
+	max-width: calc(100% - 5em); */
 	width: 40em;
 	height: 25em;
 	margin-right: 30px;
