@@ -3864,7 +3864,7 @@ input, select, textarea {
   @media screen and (max-width: 3840px){
 
 	.carousel-cell{
-		max-height: min-content;
+		max-height: fit-content;
 	}
 
 	.carousel-cell-image {
@@ -3876,7 +3876,7 @@ input, select, textarea {
   @media screen and (max-width: 2560px){
 
 	.carousel-cell{
-		max-height: min-content;
+		max-height: fit-content;
 	}
 
 	.carousel-cell-image {
@@ -3886,6 +3886,10 @@ input, select, textarea {
   }
 
   @media screen and (max-width: 1920px){
+
+	.carousel-cell{
+		max-height: fit-content;
+	}
 
 	.carousel-cell-image {
 		display: block;
