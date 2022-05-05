@@ -3839,7 +3839,7 @@ input, select, textarea {
 	margin: 0 auto;
 	max-width: calc(100% - 5em);
 	width: 40em;
-	/* height: match-parent; */
+	height: 25em;
 	margin-right: 30px;
 	/* center images in cells with flexbox */
 	display: flex;
@@ -3866,9 +3866,9 @@ input, select, textarea {
 
   @media screen and (max-width: 3840px){
 
-	/* .carousel-cell{
+	.carousel-cell{
 		max-height: fit-content;
-	} */
+	}
 
 	.carousel-cell-image {
 		display: block;
@@ -3878,9 +3878,9 @@ input, select, textarea {
 
   @media screen and (max-width: 2560px){
 
-	/* .carousel-cell{
+	.carousel-cell{
 		max-height: fit-content;
-	} */
+	}
 
 	.carousel-cell-image {
 		display: block;
@@ -3890,9 +3890,9 @@ input, select, textarea {
 
   @media screen and (max-width: 1920px){
 
-	/* .carousel-cell{
+	.carousel-cell{
 		max-height: fit-content;
-	} */
+	}
 
 	.carousel-cell-image {
 		display: block;
