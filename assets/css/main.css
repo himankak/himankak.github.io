@@ -3166,7 +3166,7 @@ input, select, textarea {
 
 /* Main */
 
-	#main > section > .container > .carousel-cell {
+	#main > section > .container {
 		padding: 8em 0 5em 0;
 	}
 }
@@ -3205,7 +3205,7 @@ input, select, textarea {
 
 	/* Main */
 
-		#main > section > .container > .carousel-cell {
+		#main > section > .container {
 			padding: 6em 0 3em 0;
 		}
 
@@ -3245,7 +3245,7 @@ input, select, textarea {
 
 		/* Main */
 
-			#main > section > .container > .carousel-cell {
+			#main > section > .container {
 				padding: 4em 0 2em 0;
 			}
 
@@ -3606,7 +3606,7 @@ input, select, textarea {
 
 		/* Main */
 
-			#main > section > .container > .carousel-cell {
+			#main > section > .container {
 				padding: 2em 0 0 0;
 			}
 
@@ -3830,16 +3830,13 @@ input, select, textarea {
   }
    */
 
-   .carousel {
+  .carousel {
 	background: #e4e4e4;
   }
   
   .carousel-cell {
-	/* width: 70%; */
-	/* margin: 0 auto;
-	max-width: calc(100% - 5em); */
-	width: 40em;
-	height: 25em;
+	width: 70%;
+	height: 450px;
 	margin-right: 30px;
 	/* center images in cells with flexbox */
 	display: flex;
@@ -3866,10 +3863,6 @@ input, select, textarea {
 
   @media screen and (max-width: 3840px){
 
-	.carousel-cell{
-		max-height: fit-content;
-	}
-
 	.carousel-cell-image {
 		display: block;
 		max-width: 100%;
@@ -3877,10 +3870,6 @@ input, select, textarea {
   }
 
   @media screen and (max-width: 2560px){
-
-	.carousel-cell{
-		max-height: fit-content;
-	}
 
 	.carousel-cell-image {
 		display: block;
@@ -3890,9 +3879,45 @@ input, select, textarea {
 
   @media screen and (max-width: 1920px){
 
-	.carousel-cell{
-		max-height: fit-content;
-	}
+	.carousel-cell-image {
+		display: block;
+		max-width: 100%;
+	  }
+  }
+
+  @media screen and (max-width: 1440px){
+
+	.carousel-cell-image {
+		display: block;
+		max-width: 100%;
+	  }
+  }
+
+  @media screen and (max-width: 1280px){
+
+	.carousel-cell-image {
+		display: block;
+		max-width: 100%;
+	  }
+  }
+
+  @media screen and (max-width: 1024px){
+
+	.carousel-cell-image {
+		display: block;
+		max-width: 100%;
+	  }
+  }
+
+  @media screen and (max-width: 736px){
+
+	.carousel-cell-image {
+		display: block;
+		max-width: 100%;
+	  }
+  }
+
+  @media screen and (max-width: 480px){
 
 	.carousel-cell-image {
 		display: block;
