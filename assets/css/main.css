@@ -3145,30 +3145,30 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		width: 28em;
+		width: 25em;
 		/* padding-top: 12em; */
 		/* padding-bottom: 5em; */
 	}
 
 		#header > header {
-			padding: 3.5em;
+			padding: 2em;
 		}
 
 		#header > footer {
-			padding: 3em;
+			padding: 1.5em;
 		}
 
 /* Wrapper */
 
 	#wrapper {
-		padding-right: 28em;
+		padding-right: 25em;
 	}
 
 /* Main */
 
-	#main > section > .container {
-		padding: 8em 0 5em 0;
-	}
+			#main > section > .container {
+				padding: 4em 0 2em 0;
+			}
 }
 
 /* 2K */
@@ -3184,30 +3184,30 @@ input, select, textarea {
 	/* Header */
 
 		#header {
-			width: 24em;
+			width: 23em;
 			/* padding-top: 12em; */
 			/* padding-bottom: 5em; */
 		}
 
 			#header > header {
-				padding: 2.5em;
+				padding: 2em;
 			}
 
 			#header > footer {
-				padding: 2em;
+				padding: 1.5em;
 			}
 
 	/* Wrapper */
 
 		#wrapper {
-			padding-right: 24em;
+			padding-right: 23em;
 		}
 
 	/* Main */
 
-		#main > section > .container {
-			padding: 6em 0 3em 0;
-		}
+	#main > section > .container {
+		padding: 4em 0 2em 0;
+	}
 
 }
 
@@ -3218,7 +3218,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 14pt;
 			}
 
 		/* Header */
@@ -3926,7 +3926,7 @@ input, select, textarea {
   }
 
 
-  /* Paste this css to your style sheet file or under head tag */
+/* Paste this css to your style sheet file or under head tag */
 /* This only works with JavaScript, 
 if it's not present, don't show loader */
 .no-js #loader { display: none;  }
