@@ -3836,7 +3836,7 @@ input, select, textarea {
   
   .carousel-cell {
 	width: 70%;
-	height: fit-content;
+	height: match-parent;
 	margin-right: 30px;
 	/* center images in cells with flexbox */
 	display: flex;
