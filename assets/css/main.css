@@ -132,8 +132,9 @@ input, select, textarea {
 		a:hover {
 			/* border-bottom: 3px ; */
 			border-bottom-color: transparent;
-			color: #008ab4 !important;
+			color: #00152c !important;
 			font-weight: 500;
+			text-shadow: 0 0 1px #00152c;
 		}
 
 	strong, b {
@@ -4031,6 +4032,78 @@ if it's not present, don't show loader */
 	}
 	to {
 	  transform: translate(0%, -100%);
+	}
+  }
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* BLINKING CURSOR */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+  .blinkyblink a {
+	position: relative;
+	display: inline-block;
+	color: #ececec;
+	/* font-family: Monaco, Arial, Helvetica, sans-serif; */
+	line-height: 24px;
+	/* font-size: 24px; */
+	/* color: white; */
+	/* min-width: 360px; */
+	text-decoration-style: none;
+	border-bottom: none;
+  }
+
+  .blinkyblink a:hover {
+	color: #ffffff !important;
+	/* text-decoration-style:wavy !important; */
+	border-bottom: none;
+	text-shadow: 0 0 2px #ffffff; 
+  }
+  
+  .blinkyblink::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	/* Remove display: inline-block if not required to be on the same line as text etc */
+	display: inline-block;
+	background-color: #ffffff;
+	color: #ffffff;
+	vertical-align: top;
+	width: 10px;
+	/* Set height to the line height of .text */
+	height: 24px;
+	/* 
+	Animation paramaters:
+	blink = animation-name, 
+	1s = animation-duration, 
+	step-end = animation-timing-function,
+	infinite = animation-iteration-count
+	*/
+	-webkit-animation: blink 1s step-end infinite;
+	animation: blink 1s step-end infinite;
+  }
+  
+  @-webkit-keyframes blink {
+	0% {
+	  opacity: 1;
+	}
+	50% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes blink {
+	0% {
+	  opacity: 1;
+	}
+	50% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
 	}
   }
   
