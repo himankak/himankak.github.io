@@ -252,8 +252,10 @@ input, select, textarea {
 		}
 
 	blockquote {
+		font-family: 'Courgette', cursive;
+		font-size: 0.95em !important;
 		border-left: solid 8px #6b6b6b;
-		font-style: italic;
+		/* font-style: italic; */
 		margin: 3em 0 3em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
