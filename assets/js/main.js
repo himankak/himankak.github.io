@@ -476,13 +476,13 @@ pna = new ParticleNetworkAnimation();	pna.init($('.particle-network-animation')[
 
 // Pre-Loader JS
 
-var myVar;
+// var myVar;
 
-function myFunction() {
-  myVar = setTimeout(showPage, 10000);
-}
+// function myFunction() {
+//   myVar = setTimeout(showPage, 3000);
+// }
 
-function showPage() {
-  document.getElementById("chaotic-orbit").style.display = "none";
-  document.getElementById("show").style.display = "block";
-}
+// function showPage() {
+//   document.getElementById("chaotic-orbit").style.display = "none";
+//   document.getElementById("show").style.display = "block";
+// }
