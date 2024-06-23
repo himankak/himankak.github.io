@@ -51,6 +51,10 @@ blockquote, q {
 	color: rgb(0, 0, 0);
 }
 
+a {
+	font-family: 'Courier New', Courier, monospace;
+}
+
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
