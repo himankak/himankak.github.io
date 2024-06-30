@@ -529,7 +529,14 @@
 								</footer>
 								<blockquote>“Never stop fighting until you arrive at your destined place — that is, the unique you. Have an aim in life, continuously acquire knowledge, work hard, and have perseverance to realize the great life.”
 								<br>— Dr. A. P. J. Abdul Kalam</blockquote>
-								<p><h6>Last Updated: <script> document.write(new Date().toDateString()); </script></h6></p>
+								<!-- <p><h6>Last Updated: <script> document.write(new Date().toDateString()); </script></h6></p> -->
+								<!-- <p><h6>Last Updated: </h6></p> -->
+								<h6><p id="demo"></p></h6>
+								<script>
+									let text = "Last Modified: ";
+									text = text.concat(document.lastModified);
+									document.getElementById("demo").innerHTML = text;
+								</script>
 							</div>
 						</section>
 
